@@ -1,4 +1,4 @@
-package java11.exercise;
+package java12.exercise;
 
 public class Rect {
 

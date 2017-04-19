@@ -6,6 +6,10 @@ public class Car {
     private String color = "red";
     private int speed = 0;
     private int gear = 1;
+    private int id;
+    private static int numberofCars = 0;
+
+
 
     public void speedUp(int x){
         speed += x ;
@@ -25,9 +29,11 @@ public class Car {
         this.color = color;
         this.speed = speed;
         this.gear = gear;
+        id = ++numberofCars;
     }
 
     public Car() {
+        id = ++numberofCars;
     }
 
     public String getColor() {
@@ -56,6 +62,14 @@ public class Car {
         if (gear<0) gear = 0;
         if (gear>5) gear = 5;
         this.gear = gear;
+    }
+
+    public static int getNumberofCars() {
+        return numberofCars;
+    }
+
+    public static void setNumberofCars(int numberofCars) {
+        Car.numberofCars = numberofCars;
     }
 
     @Override
