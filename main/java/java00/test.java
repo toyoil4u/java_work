@@ -1,7 +1,5 @@
 package java00;
 
-import org.apache.commons.lang3.ObjectUtils;
-
 public class test {
     public static void main(String[] args) {
         if (isInteger("")){
