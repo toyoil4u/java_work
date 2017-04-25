@@ -19,4 +19,11 @@ public class ConversationBook extends Book {
     public void setLanguage(String language) {
         this.language = language;
     }
+
+    @Override
+    public String toString() {
+        return "상품번호>> " + getId() + "\n상품설명>> " + getInfo() + "\n생산자>> " + getProducer()
+                + "\n가격정보>> " + getPrice() + "\n언어>> " + language
+                + "\n---------------------------";
+    }
 }

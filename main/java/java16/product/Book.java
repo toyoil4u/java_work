@@ -40,4 +40,10 @@ public class Book extends Product {
         this.title = title;
     }
 
+    @Override
+    public String toString() {
+        return "상품번호>> " + getId() + "\n상품설명>> " + getInfo() + "\n생산자>> " + getProducer()
+                + "\n가격정보>> " + getPrice() + "\nISBN>> " + ISBN + "\n저자>> " + author + "\n책제목>> " + title
+                + "\n---------------------------";
+    }
 }
