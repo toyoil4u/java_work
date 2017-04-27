@@ -2,10 +2,6 @@ package java07;
 
 import java.util.Scanner;
 
-/**
- * Created by Administrator on 2017-04-07.
- */
-
 public class jv07_01_배열 {
 
     public static void main(String[] args){
