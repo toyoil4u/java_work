@@ -10,10 +10,9 @@ public class 유효점수 {
         System.out.print("심사위원수 : ");
         int panel = kb.nextInt();
         int[] score = new int[panel];
-        System.out.println(panel+"명의 심사위원 점수 입력");
+        System.out.print(panel+"명의 심사위원 점수 입력(띄어쓰기로 구분) : ");
         for (int i=0 ; i<panel ; i++){
-            System.out.print(i+1+"번 심사위원 점수 : ");
-            score[i] = kb.nextInt();
+            score[i] = Integer.parseInt(kb.next());
         }
         Arrays.sort(score);
         reverseArrayint(score);
