@@ -1,9 +1,9 @@
-package test_ex;
+package 이지훈;
 
 public class Employee {
     private String name;
     private String address;
-    private int salary;
+    protected int salary;
     private String rrn;
 
     public Employee() {
@@ -50,11 +50,10 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
-                "name='" + name + '\'' +
-                ", address='" + address + '\'' +
-                ", salary=" + salary +
-                ", rrn='" + rrn + '\'' +
-                '}';
+        return "사원정보 >" +
+                "  이름 : " + name +
+                "  주소 : " + address +
+                "  급여 : " + salary +
+                "  주민번호 : " + rrn;
     }
 }

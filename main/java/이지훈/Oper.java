@@ -1,4 +1,4 @@
-package test_ex;
+package 이지훈;
 
 public class Oper {
     private int x;
@@ -29,19 +29,19 @@ public class Oper {
         this.y = y;
     }
 
-    public int Add(){
+    public int add(){
         return x + y;
     }
 
-    public int Minus(){
+    public int minus(){
         return x - y;
     }
 
-    public int Mul(){
+    public int mul(){
         return x * y;
     }
 
-    public double Div(){
+    public double div(){
         return (double)x / y;
     }
 }

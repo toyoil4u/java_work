@@ -1,4 +1,6 @@
-package test_ex;
+package test_ex.date;
+
+import test_ex.date.Date;
 
 public class DateTest {
     public static void main(String[] args) {

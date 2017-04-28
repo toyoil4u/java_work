@@ -1,6 +1,8 @@
-package test_ex;
+package test_ex.oper;
 
 import java.util.Scanner;
+
+import test_ex.oper.Oper;
 
 public class OperTest {
     public static void main(String[] args) {

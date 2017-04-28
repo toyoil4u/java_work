@@ -50,6 +50,7 @@ public class ladder {
         for (int y = 0; y < array.length ; y++){
             if (x > 0 && array[y][x-1] == 1) x--;                  /* left check */
             else if (x < array[0].length && array[y][x] == 1) x++; /* right check */
+            System.out.println("("+y+", "+x+")");
         }
         return x;
     }

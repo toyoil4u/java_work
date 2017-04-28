@@ -1,4 +1,4 @@
-package test_ex;
+package test_ex.date;
 
 public class Date {
     private int year;
