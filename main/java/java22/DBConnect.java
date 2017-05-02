@@ -24,6 +24,10 @@ public class DBConnect {
         return conn;
     }
 
+    public static Connection makeConnection(){
+        return connectionMySql();
+    }
+
     public static void main(String[] args) {
         Connection conn = DBConnect.connectionMySql();
         if (conn == null){
